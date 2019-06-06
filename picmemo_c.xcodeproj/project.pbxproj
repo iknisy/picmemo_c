@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA4883ECC17368723E88B05 /* libPods-picmemo_c.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C37557EFDDAFD623F8CD580C /* libPods-picmemo_c.a */; };
+		54139A6A2299210E00B9AA3B /* NewMemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54139A692299210E00B9AA3B /* NewMemoTableViewController.m */; };
+		5416C17D2295544D00AC2A18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5416C17C2295544D00AC2A18 /* AppDelegate.m */; };
+		5416C1832295544D00AC2A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5416C1812295544D00AC2A18 /* Main.storyboard */; };
+		5416C1862295544D00AC2A18 /* picmemo_c.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5416C1842295544D00AC2A18 /* picmemo_c.xcdatamodeld */; };
+		5416C1882295545100AC2A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5416C1872295545100AC2A18 /* Assets.xcassets */; };
+		5416C18B2295545100AC2A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5416C1892295545100AC2A18 /* LaunchScreen.storyboard */; };
+		5416C18E2295545100AC2A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5416C18D2295545100AC2A18 /* main.m */; };
+		5416C19A22957E7C00AC2A18 /* GridCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5416C19922957E7C00AC2A18 /* GridCollectionViewController.m */; };
+		5416C19D22957EDB00AC2A18 /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5416C19C22957EDB00AC2A18 /* GridCollectionViewCell.m */; };
+		54ACF5FE22A6134A00BC359F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ACF5FD22A6134A00BC359F /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31EF782DA4BD904F8A6599E3 /* Pods-picmemo_c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picmemo_c.release.xcconfig"; path = "Target Support Files/Pods-picmemo_c/Pods-picmemo_c.release.xcconfig"; sourceTree = "<group>"; };
+		54139A682299210E00B9AA3B /* NewMemoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewMemoTableViewController.h; sourceTree = "<group>"; };
+		54139A692299210E00B9AA3B /* NewMemoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewMemoTableViewController.m; sourceTree = "<group>"; };
+		5416C1782295544D00AC2A18 /* picmemo_c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picmemo_c.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5416C17B2295544D00AC2A18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5416C17C2295544D00AC2A18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5416C1822295544D00AC2A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5416C1852295544D00AC2A18 /* picmemo_c.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = picmemo_c.xcdatamodel; sourceTree = "<group>"; };
+		5416C1872295545100AC2A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5416C18A2295545100AC2A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5416C18C2295545100AC2A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5416C18D2295545100AC2A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5416C19822957E7C00AC2A18 /* GridCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewController.h; sourceTree = "<group>"; };
+		5416C19922957E7C00AC2A18 /* GridCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewController.m; sourceTree = "<group>"; };
+		5416C19B22957EDB00AC2A18 /* GridCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewCell.h; sourceTree = "<group>"; };
+		5416C19C22957EDB00AC2A18 /* GridCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCell.m; sourceTree = "<group>"; };
+		54ACF5FC22A6134A00BC359F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		54ACF5FD22A6134A00BC359F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C37557EFDDAFD623F8CD580C /* libPods-picmemo_c.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-picmemo_c.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2D1424C869D8771DBDB4DF /* Pods-picmemo_c.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picmemo_c.debug.xcconfig"; path = "Target Support Files/Pods-picmemo_c/Pods-picmemo_c.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5416C1752295544D00AC2A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA4883ECC17368723E88B05 /* libPods-picmemo_c.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5416C16F2295544D00AC2A18 = {
+			isa = PBXGroup;
+			children = (
+				5416C17A2295544D00AC2A18 /* picmemo_c */,
+				5416C1792295544D00AC2A18 /* Products */,
+				57D9FD01667AF23C5147FA0D /* Pods */,
+				5FCEDCBAF21D9A27A69A8D69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5416C1792295544D00AC2A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5416C1782295544D00AC2A18 /* picmemo_c.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5416C17A2295544D00AC2A18 /* picmemo_c */ = {
+			isa = PBXGroup;
+			children = (
+				5416C19722957E0A00AC2A18 /* StoryBoard */,
+				5416C19622957DFE00AC2A18 /* Model */,
+				5416C19522957DF500AC2A18 /* Controller */,
+				5416C19422957DB900AC2A18 /* View */,
+				5416C17B2295544D00AC2A18 /* AppDelegate.h */,
+				5416C17C2295544D00AC2A18 /* AppDelegate.m */,
+				5416C1872295545100AC2A18 /* Assets.xcassets */,
+				5416C18C2295545100AC2A18 /* Info.plist */,
+				5416C18D2295545100AC2A18 /* main.m */,
+				5416C1842295544D00AC2A18 /* picmemo_c.xcdatamodeld */,
+			);
+			path = picmemo_c;
+			sourceTree = "<group>";
+		};
+		5416C19422957DB900AC2A18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5416C19B22957EDB00AC2A18 /* GridCollectionViewCell.h */,
+				5416C19C22957EDB00AC2A18 /* GridCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5416C19522957DF500AC2A18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5416C19822957E7C00AC2A18 /* GridCollectionViewController.h */,
+				5416C19922957E7C00AC2A18 /* GridCollectionViewController.m */,
+				54139A682299210E00B9AA3B /* NewMemoTableViewController.h */,
+				54139A692299210E00B9AA3B /* NewMemoTableViewController.m */,
+				54ACF5FC22A6134A00BC359F /* DetailViewController.h */,
+				54ACF5FD22A6134A00BC359F /* DetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5416C19622957DFE00AC2A18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5416C19722957E0A00AC2A18 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5416C1812295544D00AC2A18 /* Main.storyboard */,
+				5416C1892295545100AC2A18 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		57D9FD01667AF23C5147FA0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D1424C869D8771DBDB4DF /* Pods-picmemo_c.debug.xcconfig */,
+				31EF782DA4BD904F8A6599E3 /* Pods-picmemo_c.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FCEDCBAF21D9A27A69A8D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37557EFDDAFD623F8CD580C /* libPods-picmemo_c.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5416C1772295544D00AC2A18 /* picmemo_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5416C1912295545100AC2A18 /* Build configuration list for PBXNativeTarget "picmemo_c" */;
+			buildPhases = (
+				1F82F915F5F411AE01F3176A /* [CP] Check Pods Manifest.lock */,
+				5416C1742295544D00AC2A18 /* Sources */,
+				5416C1752295544D00AC2A18 /* Frameworks */,
+				5416C1762295544D00AC2A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picmemo_c;
+			productName = picmemo_c;
+			productReference = 5416C1782295544D00AC2A18 /* picmemo_c.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5416C1702295544D00AC2A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mike;
+				TargetAttributes = {
+					5416C1772295544D00AC2A18 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5416C1732295544D00AC2A18 /* Build configuration list for PBXProject "picmemo_c" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5416C16F2295544D00AC2A18;
+			productRefGroup = 5416C1792295544D00AC2A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5416C1772295544D00AC2A18 /* picmemo_c */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5416C1762295544D00AC2A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5416C18B2295545100AC2A18 /* LaunchScreen.storyboard in Resources */,
+				5416C1882295545100AC2A18 /* Assets.xcassets in Resources */,
+				5416C1832295544D00AC2A18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F82F915F5F411AE01F3176A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-picmemo_c-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5416C1742295544D00AC2A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54139A6A2299210E00B9AA3B /* NewMemoTableViewController.m in Sources */,
+				5416C19D22957EDB00AC2A18 /* GridCollectionViewCell.m in Sources */,
+				5416C1862295544D00AC2A18 /* picmemo_c.xcdatamodeld in Sources */,
+				5416C18E2295545100AC2A18 /* main.m in Sources */,
+				5416C19A22957E7C00AC2A18 /* GridCollectionViewController.m in Sources */,
+				5416C17D2295544D00AC2A18 /* AppDelegate.m in Sources */,
+				54ACF5FE22A6134A00BC359F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5416C1812295544D00AC2A18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5416C1822295544D00AC2A18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5416C1892295545100AC2A18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5416C18A2295545100AC2A18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5416C18F2295545100AC2A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5416C1902295545100AC2A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5416C1922295545100AC2A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2D1424C869D8771DBDB4DF /* Pods-picmemo_c.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = picmemo_c/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.picmemo-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5416C1932295545100AC2A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EF782DA4BD904F8A6599E3 /* Pods-picmemo_c.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = picmemo_c/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.picmemo-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5416C1732295544D00AC2A18 /* Build configuration list for PBXProject "picmemo_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5416C18F2295545100AC2A18 /* Debug */,
+				5416C1902295545100AC2A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5416C1912295545100AC2A18 /* Build configuration list for PBXNativeTarget "picmemo_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5416C1922295545100AC2A18 /* Debug */,
+				5416C1932295545100AC2A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5416C1842295544D00AC2A18 /* picmemo_c.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5416C1852295544D00AC2A18 /* picmemo_c.xcdatamodel */,
+			);
+			currentVersion = 5416C1852295544D00AC2A18 /* picmemo_c.xcdatamodel */;
+			path = picmemo_c.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5416C1702295544D00AC2A18 /* Project object */;
+}

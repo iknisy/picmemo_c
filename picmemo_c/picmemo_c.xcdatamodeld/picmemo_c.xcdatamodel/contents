@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="MemoDetail" representedClassName="MemoDetail" syncable="YES" codeGenerationType="class">
+        <attribute name="describe" attributeType="String" syncable="YES"/>
+        <attribute name="imageID" attributeType="String" syncable="YES"/>
+        <attribute name="textColor" attributeType="Binary" syncable="YES"/>
+        <attribute name="time" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MemoDetail" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>
